@@ -1,0 +1,54 @@
+body {
+    margin: 10px;
+    margin-right: 10px;
+    background-color: white;
+    display:flexbox;
+  
+  }
+  
+  .top {
+    height: auto;
+    width: 100%;
+    background-color: rgb(10, 13, 53);
+    font-size: 3cm;
+    text-align: center;
+    color: white;
+    font-style: oblique;
+  }
+  
+  .top2 {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(213, 241, 240);
+    font-size: 3cm;
+    text-align: center;
+  }
+  
+  
+  .child {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(121, 95, 95);
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    font-size: 1em;
+    font-style: normal;
+  }
+  
+  .component {
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+  }
+  
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .tool {
+    font-size: 3;
+  }
